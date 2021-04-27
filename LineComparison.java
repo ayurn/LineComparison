@@ -4,7 +4,7 @@ public class LineComparison {
 	public static void main(String[] args) {
 		System.out.println( "Welcome to Line Comparison Computation Program" );
 
-		double x1, y1, x2, y2;
+	    double x1, y1, x2, y2;
   	    Scanner sc = new Scanner(System.in);
   	    System.out.println(" Enter co-ordinates of first line : ");
   	    x1 = sc.nextDouble();
