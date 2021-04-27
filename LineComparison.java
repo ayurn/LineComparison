@@ -24,10 +24,10 @@ public class LineComparison {
   	    double length2 = Math.sqrt(Math.pow((x2-x1),2)+Math.pow((y2-y1),2));
   	    System.out.println(" Length of line2 is : "+length2);
 
-  	    String strlen1 = String.valueOf(len1);
-  	    String strlen2 = String.valueOf(len2);
+  	    String strlength1 = String.valueOf(length1);
+  	    String strlength2 = String.valueOf(length2);
 
-  	    int comparison = strlen1.compareTo(strlen2);
+  	    int comparison = strlength1.compareTo(strlength2);
   	    System.out.println("Comparison of Line1 and Line2 = "+comparison);
   	    if (comparison==0) {
   	    	System.out.println("Length of Line1 = "+length1+" is equal to Length of Line2 = "+length2);
